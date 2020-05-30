@@ -52,12 +52,14 @@ p {
 
 /* Header */
 .header {
-    width: 100%; /* para ficar de ponta a ponta */
-    background: #fec63e;
-    padding: 15px 0;
-    position: fixed;
-    z-index: 10;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #fec63e; /* Amarelo */
+	padding: 15px 0;
+	z-index: 10;
 }
+
 
 .header_menu {
     text-align: right;
@@ -87,13 +89,13 @@ p {
 /* Introdução */
 
 .introducao {
-    width: 100%;
-    background: url("../img/bg.jpg") no-repeat center;
-    background-size: cover; 
-    padding-top: 96px;
-    height: 380px;
-    text-align: center;
-    padding-top: 120px;
+	width: 100%;
+	height: 380px;
+	background: url("../img/bg.jpg") no-repeat center;
+	background-size: cover;
+	margin-top: 96px;
+	text-align: center;
+	padding-top: 80px;
 }
 
 .introducao h1 {
